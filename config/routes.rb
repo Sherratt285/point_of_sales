@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :receipts
+  resources :items
   get 'static_pages/Item'
 
   get 'static_pages/FillRecipt'
